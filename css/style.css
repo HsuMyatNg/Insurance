@@ -25,6 +25,11 @@ header .navbar .navbar-nav .nav-link::after{
 header .navbar .navbar-nav .nav-link:hover::after{
     width: 100%;
 }
+.navbar-toggler{
+    background-color: #fff !important;
+    border: var(--green) !important;
+    box-shadow: none !important;
+}
 #Home{
     color: #fff;
     background-image:linear-gradient(rgba(12, 8, 82, 0.3),rgba(19, 5, 5, 0.7)),url('../images/home1.jpg');
