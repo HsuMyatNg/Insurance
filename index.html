@@ -40,7 +40,7 @@
                 <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita possimus quo distinctio debitis minus nobis reiciendis. Voluptatem illo necessitatibus aliquid molestias reprehenderit provident doloremque est voluptate deleniti explicabo. Eveniet, nisi.</p>
                 <button class="btnregister mb-5" type="button">Register</button>
                   <div>
-                    <button  onclick="myFunction1()"></button>
+                    <button onclick="myFunction1()"></button>
                     <button onclick="myFunction2()"></button>
                     <button onclick="myFunction3()"></button>
                   </div>
@@ -55,9 +55,11 @@
           <div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/cOXttb0Vvoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-12 col-md-6 col-lg-6 px-3">
             <h3>Best Company In The Country</h3>
+            <p class="lh-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit quae voluptatum ea atque aperiam maiores magnam temporibus porro earum amet, facere reprehenderit nulla ullam rem, est aspernatur laudantium? Est.
+            </p>
           </div>
         </div>
       </div>
@@ -65,26 +67,26 @@
     <section id="Services" role="Services">
       <div class="container-fluid">
         <h2 class="sectiontitle text-center mt-5">SERVICES</h2>
-        <div class="row d-flex justify-content-center align-items-center py-5">
-          <div class="col-12 col-lg-4 d-flex servicesitem">
+        <div class="row d-flex justify-content-center py-5">
+          <div class="col-12 col-lg-4 d-flex servicesitem px-lg-4 mb-4">
             <i class="bi bi-person-square px-3"></i>
             <div class="content">
               <h3>Save Life</h3>
-              <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
+              <p><small class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 d-flex servicesitem px-lg-3">
+          <div class="col-12 col-lg-4 d-flex servicesitem px-lg-4 mb-4">
             <i class="bi bi-person-square px-3"></i>
             <div class="content">
               <h3>Save Life</h3>
-              <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
+              <p><small class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 d-flex servicesitem">
+          <div class="col-12 col-lg-4 d-flex servicesitem px-lg-4 mb-4">
             <i class="bi bi-person-square px-3"></i>
             <div class="content">
               <h3>Save Life</h3>
-              <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
+              <p><small class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit vitae libero quo unde! Perspiciatis quod repudiandae repellat veritatis?</small></p>
             </div>
           </div>
         </div>
@@ -147,10 +149,10 @@
       </div>
     </section>
     <section id="Insurance" role="Insurance">
-      <div class="container-fluid">
+      <div class="container">
         <h2 class="sectiontitle text-center">All Insurance</h2>
-        <div class="row d-flex justify-content-center my-5" id="insurancetype">
-          <div class="col-12 col-lg-4 col-md-4 p-0 m-0" id="insuranceitems">
+        <div class="row d-flex  my-5" id="insurancetype">
+          <div class="col-12 col-lg-4 col-md-4 p-0 mb-3" id="insuranceitems">
             <img src="images/car1.jpg" alt="">
             <div class="textcontent text-center">
               <h3 class="my-3">Car Insurance</h3>
@@ -158,7 +160,7 @@
               <button class="btnseemore" type="button">See More</button>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-md-4 p-0 m-0" id="insuranceitems">
+          <div class="col-12 col-lg-4 col-md-4 p-0 mb-3" id="insuranceitems">
             <img src="images/health1.jpg" alt="" >
             <div class="textcontent text-center">
               <h3 class="my-3">Health Insurance</h3>
@@ -166,7 +168,7 @@
               <button class="btnseemore" type="button">See More</button>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-md-4 p-0 m-0" id="insuranceitems">
+          <div class="col-12 col-lg-4 col-md-4 p-0 mb-3" id="insuranceitems">
             <img src="images/life1.jpg" alt="">
             <div class="textcontent text-center">
               <h3 class="my-3">Life Insurance</h3>
@@ -177,31 +179,34 @@
         </div>
         <div class="row">
           <h2 class="sectiontitle text-center mb-5">What Our Insurancer Says</h2>
-          <div class="col-12 col-lg-6 col-md-6 shadow-lg" id="says">
-            <img src="images/woman1.jpg" alt="">
-            <div class="saybox text-center">
-              <h3 class="pt-3 mb-2">Rocky Byer</h3>
-              <p><small class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas alias velit optio eligendi cum, natus facere ratione .</small></p>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+          <!-- <div class="row mb-4"> -->
+            <div class="col-12 col-lg-6 col-md-6 px-lg-4 px-md-4 shadow-lg pt-4 mb-4" id="says">
+              <img src="images/woman1.jpg" alt="">
+              <div class="saybox text-center">
+                <h3 class="pt-3 mb-2">Rocky Byer</h3>
+                <p><small class="mb-0 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas alias velit optio eligendi cum, natus facere ratione .</small></p>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+              </div>
             </div>
+            <div class="col-12 col-lg-6 col-md-6 px-lg-4 px-md-4 shadow-lg pt-4 mb-4" id="says">
+              <img src="images/woman2.jpg" alt="">
+              <div class="saybox text-center">
+                <h3 class="pt-3 mb-2">Christine</h3>
+                <p><small class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas alias velit optio eligendi cum, natus facere ratione .</small></p>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
+                <i class="bi bi-star-half" style="color: #ec2222;font-size: 15px;"></i>
+              </div>
+            <!-- </div> -->
           </div>
-          <div class="col-12 col-lg-6 col-md-6 shadow-lg" id="says">
-            <img src="images/woman2.jpg" alt="">
-            <div class="saybox text-center">
-              <h3 class="pt-3 mb-2">Christine</h3>
-              <p><small class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas alias velit optio eligendi cum, natus facere ratione .</small></p>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
-              <i class="bi bi-star-half" style="color: #ec2222;font-size: 15px;"></i>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 col-md-6 shadow-lg" id="says">
+         <!-- <div class="row "> -->
+          <div class="col-12 col-lg-6 col-md-6 px-lg-4 px-md-4 mb-4 shadow-lg pt-4 mb-4" id="says">
             <img src="images/man.jpg" alt="">
             <div class="saybox text-center">
               <h3 class="pt-3 mb-2">Davidlar</h3>
@@ -213,10 +218,10 @@
               <i class="bi bi-star" style="color: #ec2222;font-size: 15px;"></i>
             </div>
           </div>
-          <div class="col-12 col-lg-6 col-md-6 shadow-lg" id="says">
+          <div class="col-12 col-lg-6 col-md-6 px-lg-4 px-md-4 mb-4 shadow-lg pt-4 mb-4" id="says">
             <img src="images/cr7.jpg" alt="">
             <div class="saybox text-center">
-              <h3 class="pt-3 mb-2">Cristiano Ranaldo</h3>
+              <h3 class="pt-3 mb-2">Cristiano Ronaldo</h3>
               <p><small class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas alias velit optio eligendi cum, natus facere ratione .</small></p>
               <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
               <i class="bi bi-star-fill" style="color: #ec2222;font-size: 15px;"></i>
@@ -225,6 +230,7 @@
               <i class="bi bi-star" style="color: #ec2222;font-size: 15px;"></i>
             </div>
           </div>
+         <!-- </div> -->
         </div>
       </div>
     </section>
@@ -232,24 +238,24 @@
       <div class="container">
         <h2 class="sectiontitle my-5 text-center">Contact</h2>
         <div class="row my-5">
-          <div class="col-12 col-lg-8 map mb-5">
+          <div class="col-12 col-lg-7 map mb-5">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.0072999731256!2d98.62487411429986!3d12.449234329494239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fbb05000000001%3A0xc489704306225054!2sFNI%20Life%20Insurance!5e0!3m2!1sen!2smm!4v1633860021675!5m2!1sen!2smm" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-5">
             <form class="shadow-lg">
-              <div class="mb-3">
+              <div class="mb-3 px-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
               </div>
-              <div class="mb-3">
+              <div class="mb-3  px-3">
                 <label for="phonenumber" class="form-label">Phone Number</label>
                 <input type="number" class="form-control" id="phonenumber" placeholder="Enter your phone number">
               </div>
-              <div class="mb-3">
+              <div class="mb-3  px-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="phonenumber" placeholder="Enter your email">
               </div>
-              <div class="mb-3">
+              <div class="mb-3  px-3">
                 <label for="address" class="form-label">Address</label>
                 <textarea class="form-control" placeholder="Enter your address..." id="address" style="height: 100px"></textarea>
               </div>
@@ -263,49 +269,49 @@
     </section>
 
     <!-- Register -->
-<div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center" id="registerLabel">Account Register</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row d-block mb-3">
-            <label for="inputname3" class="col-sm-4 col-form-label">User Name</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputname3">
-            </div>
+    <div class="modal fade px-4" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="registerLabel">Account Register</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="row d-block mb-3">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3">
-            </div>
+          <div class="modal-body">
+            <form>
+              <div class="row d-block mb-3">
+                <label for="inputname3" class="col-sm-4 col-form-label">User Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputname3">
+                </div>
+              </div>
+              <div class="row d-block mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row d-block mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 d-flex justify-content-end">
+                  <button type="button" class="btncancel" data-bs-dismiss="modal">Cancel</button>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                  <button type="submit" class="btnregister">Register</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="row d-block mb-3">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6 d-flex justify-content-end">
-              <button type="button" class="btncancel" data-bs-dismiss="modal">Cancel</button>
-            </div>
-            <div class="col-6 d-flex justify-content-start">
-              <button type="submit" class="btnregister">Register</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
-</div>
     <!-- End Register -->
   <!-- Login -->
-  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+  <div class="modal fade px-4" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -364,7 +370,7 @@
 
     <script>
     function myFunction1() {
-    document.getElementById('Home').style. backgroundImage = "linear-gradient(rgba(12, 8, 82, 0.3),rgba(19, 5, 5, 0.7)),url('images/home2.jpg')";}
+    document.getElementById('Home').style.backgroundImage = "linear-gradient(rgba(12, 8, 82, 0.3),rgba(19, 5, 5, 0.7)),url('images/home2.jpg')";}
     function myFunction2() {
     document.getElementById('Home').style.backgroundImage = "linear-gradient(rgba(12, 8, 82, 0.3),rgba(19, 5, 5, 0.7)),url('images/home3.jpg')";}
     function myFunction3() {
